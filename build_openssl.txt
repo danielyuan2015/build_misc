@@ -1,0 +1,7 @@
+1. setarch i386 ./config no-asm -shared --prefix=YOUR_PATH/build_arm (this is for 32bit platform)
+
+2. modified corresponding part of Makefile(change CC)
+
+notice: v1.0.2 must use "no-asm",this may increase encryption time,which is we don't wanna see.
+#change platform to arm
+
