@@ -1,5 +1,5 @@
 1 ./configure --host=arm --prefix=build_path
-2 make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert scp" MULTI=1 #If you want to use scno function,should include scp here
+2 make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert scp" MULTI=1 #If you want to use scp function,should include scp here
 
 #2 make -j4 MULTI=1
 #3 make install //may failed here,now worry,we only need dropbearmulti
