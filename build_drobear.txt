@@ -1,0 +1,7 @@
+1 ./configure --host=arm --prefix=build_path
+2 make -j4 MULTI=1
+3 make install //may failed here,now worry,we only need dropbearmulti
+
+#4 make PROGRAMS="dropbearmulti" MULTI=1 STATIC=1
+#modified makefie add -nostartfiles in CCFLAGS
+#make PROGRAMS="dropbear dbclient dropbearkey dropbearconvert scp" MULTI=1 STATIC=1 SCPPROGRESS=1
