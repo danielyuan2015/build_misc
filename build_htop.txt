@@ -1,0 +1,4 @@
+1. ./configure --host=aarch64-poky-linux  -prefix=/your/path/
+2. make
+3. make install
+
