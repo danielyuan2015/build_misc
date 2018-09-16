@@ -1,0 +1,7 @@
+For PC HOST(Ubuntu 14.04)
+cmake ../  -DCMAKE_INSTALL_PREFIX=YOUR_INSTALL_PATH
+
+For cross compile(i.MX6SX arm-poky-linux toolchain -gcc 5.2)
+1. cmake -DENABLE_PRECOMPILED_HEADERS=OFF ../ -DCMAKE_INSTALL_PREFIX=YOUR_INSTALL_PATH
+2. then goto 3rdparty/libpng, add set(ENABLE_NEON ON) and set(ARM ON) in the top of CMakeLists.txt.
+
