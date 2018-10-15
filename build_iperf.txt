@@ -1,0 +1,6 @@
+For PC HOST(Ubuntu 14.04)
+
+
+For cross compile(i.MX6SX arm-poky-linux toolchain -gcc 5.2)
+1. ./configure --host=arm --prefix=YOUR_INSTALL_PATH
+
