@@ -1,0 +1,4 @@
+For i.mx8mq
+1 ./autogen.sh --host=aarch64-poky-linux --prefix=YOUR_PATH -disable-udev
+2 make
+3 make install
