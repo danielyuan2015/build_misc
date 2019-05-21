@@ -1,0 +1,8 @@
+For 64bit arm platform
+1 go to https://github.com/Distrotech/libtool/tree/distrotech-libtool/libltdl/config
+copy config.guess config.sub to config folder of log4cpp root path
+
+2 ./autogen.sh
+3 ./configure --host=aarch64-poky-linux --enable-shared --prefix=YOUR_PATH
+
+
