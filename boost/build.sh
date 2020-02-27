@@ -1,11 +1,3 @@
-###
- # @2019 © Honeywell BCC Scanning Team
- # @Author: Daniel yuan(H138744)
- # @Date: 2020-02-13 22:12:22
- # @LastEditTime : 2020-02-14 00:24:51
- # @LastEditors  : Daniel yuan(H138744)
- # @FilePath: /home/daniel/workspace/git/boost/original/boost_1_72_0/build.sh
- ###
 #/bin/sh
 TOOLCHAIN_SYSROOT=/home/daniel/workspace/imx8mq/sysroots
 
