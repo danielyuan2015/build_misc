@@ -1,0 +1,4 @@
+1.intall depedency
+pkg-config libtool etc
+2.
+./configure --prefix=/home/daniel/workspace/git/mydecoder/zbar/build_x86 --without-jpeg --without-qt --without-imagemagick --without-gtk --without-python
