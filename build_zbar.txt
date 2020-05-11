@@ -2,3 +2,6 @@
 pkg-config libtool etc
 2.
 ./configure --prefix=/home/daniel/workspace/git/mydecoder/zbar/build_x86 --without-jpeg --without-qt --without-imagemagick --without-gtk --without-python
+
+3.cross compile
+./configure --host=aarch64-poky-linux --prefix=/home/daniel/workspace/git/mydecoder/zbar/build_imx8m --without-jpeg --without-qt --without-imagemagick --without-gtk --without-python
