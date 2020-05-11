@@ -1,0 +1,1 @@
+./configure --cross-compiling --without-intl --without-snapshot --dest-cpu=arm64 --dest-os=linux --with-arm-float-abi=hard --with-arm-fpu=neon --prefix=/home/daniel/workspace/git/node.js/node-v12.16.3/build_imx8m
